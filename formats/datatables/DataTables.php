@@ -54,7 +54,7 @@ class DataTables extends SMW\ApiResultPrinter {
 				) . $this->loading() .
 				Html::element( 'div', array(
 					'id' => $id,
-					'class' => 'container',
+					'class' => 'container-datatables',
 					'style' => 'display:none;'
 					)
 				)
